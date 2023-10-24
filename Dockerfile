@@ -2,7 +2,7 @@
 FROM node:alpine
 
 # folder yang akan di set di docker
-WORKDIR /app
+WORKDIR /appdocker
 
 # copy package.json dan package-lock.json
 COPY package*.json ./

@@ -6,7 +6,7 @@ networks:
 
 services:
   app:
-    container_name: 'app'
+    container_name: 'appdocker'
     build: .
     volumes:
       - .:/app
